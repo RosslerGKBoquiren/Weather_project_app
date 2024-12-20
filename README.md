@@ -1,7 +1,7 @@
 # Weather_project_app
 
 Description
-The Weather App is a dynamic and visually appealing web application that provides real-time weather information for any city worldwide. Built with modern web technologies such as JavaScript, TypeScript, CSS, and Bootstrap, this app utilizes the OpenWeather API to fetch and display accurate weather data.
+The Weather App is a dynamic and visually appealing web application that provides real-time weather information for any city worldwide. Built with modern web technologies such as JavaScript, CSS, and Bootstrap, this app utilizes the OpenWeather API to fetch and display accurate weather data.
 
 Key features include:
 
