@@ -1,0 +1,88 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fddb92, #ffffff, #74b9ff);
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Centering Content */
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2c3e50; 
+}
+
+header p {
+    font-size: 1rem;
+    color: #34495e; 
+}
+
+/* Search Form */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #bdc3c7; 
+    outline: none;
+    flex: 1;
+    color: #2c3e50; 
+    background-color: #ecf0f1; 
+}
+
+form input:focus {
+    box-shadow: 0px 0px 5px rgba(44, 62, 80, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Weather Display */
+#weatherDisplay {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9); 
+    border-radius: 8px;
+    color: #2c3e50; 
+    border: 1px solid #bdc3c7; 
+}
+
+#weatherDisplay p {
+    font-size: 1.2rem;
+    margin: 0;
+}
