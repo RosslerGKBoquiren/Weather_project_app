@@ -10,7 +10,7 @@ Current Weather Details: Displays the current temperature, weather conditions, h
 Dynamic Backgrounds: Changes the background gradient dynamically based on weather conditions (e.g., sunny, cloudy, rainy, snowy).
 
 Technologies Used
-Languages: JavaScript, TypeScript, HTML, CSS
+Languages: JavaScript, HTML, CSS
 API: OpenWeather API
 Frameworks/Libraries: Bootstrap
 Version Control: Git
