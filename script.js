@@ -5,7 +5,7 @@ const weatherDisplay = document.getElementById('weatherDisplay');
 const body = document.body; // To change background dynamically
 
 // OpenWeather API details
-const API_KEY = 'f3c2e89590cb7ec272a7b825728855a9'; // Replace with your API key
+const API_KEY = 'f3c2e89590cb7ec272a7b825728855a9'; 
 const CURRENT_WEATHER_URL = 'https://api.openweathermap.org/data/2.5/weather';
 const FORECAST_URL = 'https://api.openweathermap.org/data/2.5/forecast';
 
@@ -122,3 +122,4 @@ searchForm.addEventListener('submit', (e) => {
         cityInput.value = ''; // Clear input field
     }
 });
+
